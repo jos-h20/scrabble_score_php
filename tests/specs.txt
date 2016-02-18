@@ -1,0 +1,20 @@
+input: a
+expect a to equal 1
+
+input: ad
+expect ad to equal 3
+
+input cad
+expect cad to equal 6
+
+input chad
+expect chad to equal 10
+
+input chaked
+expect chaked to equal 15
+
+input chaxked
+expect chaxked to equal 23
+
+input chaxkezd
+expect chaxkezd to equal 33
