@@ -24,6 +24,8 @@ class Score
             $count += 3;
         }   elseif (in_array($letter, $letters_four)) {
             $count += 4;
+        }   elseif (in_array($letter, $letters_five)) {
+            $count += 5;
         }
 
     }  return $count;
