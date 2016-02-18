@@ -23,6 +23,16 @@
             //Assert tells our tests what to expect from the output of our method.
             $this->assertEquals(2, $result);
         }
+        function test_makeScore_threeLetter()
+        {
+            //Arrange
+            $test_Score = new Score;
+            $input_word = "aad";
+            //Act: runs the actual method that we are testing.
+            $result = $test_Score->makeScore($input_word);
+            //Assert tells our tests what to expect from the output of our method.
+            $this->assertEquals(4, $result);
+        }
 
     }
     // Run in terminal in project folder
