@@ -1,6 +1,6 @@
 <?php
-class Score
-{
+// class Score
+// {
   function makeScore($input_word)
   {
     $letters_one = array("a","e","i","o","u","l","n","r","s","t");
@@ -35,7 +35,7 @@ class Score
     }  return $count;
 
   }
-}
+// }
 
 
 

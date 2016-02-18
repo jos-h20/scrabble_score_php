@@ -1,20 +1,23 @@
 input: a
 expect a to equal 1
 
-input: ad
-expect ad to equal 3
+input aa
+expect aa to equal 2
 
-input cad
-expect cad to equal 6
+input: aad
+expect ad to equal 4
 
-input chad
-expect chad to equal 10
+input caad
+expect cad to equal 7
 
-input chaked
-expect chaked to equal 15
+input chaad
+expect chad to equal 11
 
-input chaxked
-expect chaxked to equal 23
+input chaakd
+expect chakd to equal 16
 
-input chaxkezd
-expect chaxkezd to equal 33
+input chaaxkd
+expect chaxked to equal 24
+
+input chaxkzd
+expect chaxkzd to equal 34

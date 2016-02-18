@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Scrabble Score</title>
+    </head>
+
+        <body>
+          <div class='container'>
+            <div class='jumbotron'>
+              <h1>Scrabble Score</h1>
+              <p><em>See how much your word is worth.</em></p>
+            </div>  <!-- /JUMBOTRON -->
+
+        <!-- Row: 1 -->
+            <div class='row'>
+              <div class='col-sm-6'>
+                  <h2>Choose a word!</h2>
+                  <form action='/userInput'>
+                      <div class='form-group'>
+                        <label for='word'>Word</label>
+                        <input id='word' name='word' type='text'>
+                      </div>
+
+                      <button class='btn btn-warning' type='submit'>Submit!</button>
+                </form>
+            </div>  <!-- /col-sm-6 -->
+          </div>  <!-- /Row -->
+
+<!-- Results ------------>
+        <!-- Row: 2 -->
+          <div class="row">
+              <div class="col-sm-6">
+                  <h2>Your word is worth {{ results }} points.</h2>
+
+              </div><!--col-sm-6-->
+          </div><!--row-->
+      </div>  <!-- /Container  -->
