@@ -63,6 +63,26 @@
             //Assert tells our tests what to expect from the output of our method.
             $this->assertEquals(16, $result);
         }
+        function test_makeScore_eightPoints()
+        {
+            //Arrange
+            $test_Score = new Score;
+            $input_word = "chaaxkd";
+            //Act: runs the actual method that we are testing.
+            $result = $test_Score->makeScore($input_word);
+            //Assert tells our tests what to expect from the output of our method.
+            $this->assertEquals(24, $result);
+        }
+        function test_makeScore_tenPoints()
+        {
+            //Arrange
+            $test_Score = new Score;
+            $input_word = "chaaxkzd";
+            //Act: runs the actual method that we are testing.
+            $result = $test_Score->makeScore($input_word);
+            //Assert tells our tests what to expect from the output of our method.
+            $this->assertEquals(34, $result);
+        }
 
     }
     // Run in terminal in project folder
