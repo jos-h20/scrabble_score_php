@@ -28,6 +28,8 @@ class Score
             $count += 5;
         }   elseif (in_array($letter, $letters_eight)) {
             $count += 8;
+        }   elseif (in_array($letter, $letters_ten)) {
+            $count += 10;
         }
 
     }  return $count;
